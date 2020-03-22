@@ -1,0 +1,22 @@
+.text{
+    font-size: 1rem;
+
+    &--header{
+        margin: 30px 0;
+        font-family: 'Oswald';
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    &--notFound{
+        font-family: 'Oswald';
+        font-size: 1.4rem;
+    }
+}
+
+.no{
+    &--data{
+        font-family: 'Oswald';
+        font-size: 0.8rem;
+    }
+}

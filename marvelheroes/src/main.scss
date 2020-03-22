@@ -1,0 +1,64 @@
+.App{
+    margin: 30px 0;
+}
+
+.element{
+    margin-bottom: 15px;
+}
+
+.card{
+
+    padding: 15px;
+
+    text-align: center;
+
+    &--actions{
+        margin-top: 10px;
+
+        text-align: left;
+    }
+
+    &--avatar{
+        display: inline-block;
+        height: 48px;
+        max-height: 48px;
+        max-width: 48px;
+        width: 48px;
+
+        background-position: center center;
+        background-size: cover;
+        border-radius: 100%;
+    }
+
+    &--name{
+        margin-top: 10px;
+        text-align: left;
+    }
+}
+
+.loading{
+    display: flex;
+    position: fixed;
+
+    left: 0px;
+    top: 0px;
+
+    height: 100vh;
+    width: 100vw;
+
+    background-color: rgba(255,255, 255, 0.8);
+
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.no{
+    &-data{
+        display: none;
+    }
+}
+
+.more{
+    margin-top: 15px;
+}
